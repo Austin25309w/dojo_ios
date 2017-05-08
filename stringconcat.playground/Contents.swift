@@ -12,3 +12,11 @@ for i in 1...5 {
 for i in 1..<5 {
     print(i)
 }
+
+var myInt = 1
+func changeMyInt(someInt: inout Int) {         // must specify "inout"
+    someInt = someInt + 1
+    print(someInt)
+}
+changeMyInt(someInt: &myInt)                            // must pass in the variable with "&" symbol
+print(myInt)
