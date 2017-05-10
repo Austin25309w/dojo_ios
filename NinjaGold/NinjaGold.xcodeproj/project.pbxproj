@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010A42641EC292BD0054E091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010A42631EC292BD0054E091 /* AppDelegate.swift */; };
+		010A42661EC292BD0054E091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010A42651EC292BD0054E091 /* ViewController.swift */; };
+		010A42691EC292BD0054E091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010A42671EC292BD0054E091 /* Main.storyboard */; };
+		010A426B1EC292BD0054E091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010A426A1EC292BD0054E091 /* Assets.xcassets */; };
+		010A426E1EC292BD0054E091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010A426C1EC292BD0054E091 /* LaunchScreen.storyboard */; };
+		010A42791EC292BD0054E091 /* NinjaGoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010A42781EC292BD0054E091 /* NinjaGoldTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		010A42751EC292BD0054E091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 010A42581EC292BC0054E091 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 010A425F1EC292BD0054E091;
+			remoteInfo = NinjaGold;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010A42601EC292BD0054E091 /* NinjaGold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaGold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		010A42631EC292BD0054E091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		010A42651EC292BD0054E091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		010A42681EC292BD0054E091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		010A426A1EC292BD0054E091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		010A426D1EC292BD0054E091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		010A426F1EC292BD0054E091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010A42741EC292BD0054E091 /* NinjaGoldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinjaGoldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		010A42781EC292BD0054E091 /* NinjaGoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaGoldTests.swift; sourceTree = "<group>"; };
+		010A427A1EC292BD0054E091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		010A425D1EC292BD0054E091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010A42711EC292BD0054E091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010A42571EC292BC0054E091 = {
+			isa = PBXGroup;
+			children = (
+				010A42621EC292BD0054E091 /* NinjaGold */,
+				010A42771EC292BD0054E091 /* NinjaGoldTests */,
+				010A42611EC292BD0054E091 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		010A42611EC292BD0054E091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				010A42601EC292BD0054E091 /* NinjaGold.app */,
+				010A42741EC292BD0054E091 /* NinjaGoldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		010A42621EC292BD0054E091 /* NinjaGold */ = {
+			isa = PBXGroup;
+			children = (
+				010A42631EC292BD0054E091 /* AppDelegate.swift */,
+				010A42651EC292BD0054E091 /* ViewController.swift */,
+				010A42671EC292BD0054E091 /* Main.storyboard */,
+				010A426A1EC292BD0054E091 /* Assets.xcassets */,
+				010A426C1EC292BD0054E091 /* LaunchScreen.storyboard */,
+				010A426F1EC292BD0054E091 /* Info.plist */,
+			);
+			path = NinjaGold;
+			sourceTree = "<group>";
+		};
+		010A42771EC292BD0054E091 /* NinjaGoldTests */ = {
+			isa = PBXGroup;
+			children = (
+				010A42781EC292BD0054E091 /* NinjaGoldTests.swift */,
+				010A427A1EC292BD0054E091 /* Info.plist */,
+			);
+			path = NinjaGoldTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		010A425F1EC292BD0054E091 /* NinjaGold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010A427D1EC292BD0054E091 /* Build configuration list for PBXNativeTarget "NinjaGold" */;
+			buildPhases = (
+				010A425C1EC292BD0054E091 /* Sources */,
+				010A425D1EC292BD0054E091 /* Frameworks */,
+				010A425E1EC292BD0054E091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NinjaGold;
+			productName = NinjaGold;
+			productReference = 010A42601EC292BD0054E091 /* NinjaGold.app */;
+			productType = "com.apple.product-type.application";
+		};
+		010A42731EC292BD0054E091 /* NinjaGoldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010A42801EC292BD0054E091 /* Build configuration list for PBXNativeTarget "NinjaGoldTests" */;
+			buildPhases = (
+				010A42701EC292BD0054E091 /* Sources */,
+				010A42711EC292BD0054E091 /* Frameworks */,
+				010A42721EC292BD0054E091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010A42761EC292BD0054E091 /* PBXTargetDependency */,
+			);
+			name = NinjaGoldTests;
+			productName = NinjaGoldTests;
+			productReference = 010A42741EC292BD0054E091 /* NinjaGoldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010A42581EC292BC0054E091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nicole Zurita";
+				TargetAttributes = {
+					010A425F1EC292BD0054E091 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B8EK5E5WCX;
+						ProvisioningStyle = Automatic;
+					};
+					010A42731EC292BD0054E091 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B8EK5E5WCX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 010A425F1EC292BD0054E091;
+					};
+				};
+			};
+			buildConfigurationList = 010A425B1EC292BC0054E091 /* Build configuration list for PBXProject "NinjaGold" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 010A42571EC292BC0054E091;
+			productRefGroup = 010A42611EC292BD0054E091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				010A425F1EC292BD0054E091 /* NinjaGold */,
+				010A42731EC292BD0054E091 /* NinjaGoldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		010A425E1EC292BD0054E091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010A426E1EC292BD0054E091 /* LaunchScreen.storyboard in Resources */,
+				010A426B1EC292BD0054E091 /* Assets.xcassets in Resources */,
+				010A42691EC292BD0054E091 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010A42721EC292BD0054E091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		010A425C1EC292BD0054E091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010A42661EC292BD0054E091 /* ViewController.swift in Sources */,
+				010A42641EC292BD0054E091 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010A42701EC292BD0054E091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010A42791EC292BD0054E091 /* NinjaGoldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		010A42761EC292BD0054E091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 010A425F1EC292BD0054E091 /* NinjaGold */;
+			targetProxy = 010A42751EC292BD0054E091 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		010A42671EC292BD0054E091 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010A42681EC292BD0054E091 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		010A426C1EC292BD0054E091 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010A426D1EC292BD0054E091 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		010A427B1EC292BD0054E091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		010A427C1EC292BD0054E091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		010A427E1EC292BD0054E091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B8EK5E5WCX;
+				INFOPLIST_FILE = NinjaGold/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NinjaGold;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		010A427F1EC292BD0054E091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B8EK5E5WCX;
+				INFOPLIST_FILE = NinjaGold/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NinjaGold;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		010A42811EC292BD0054E091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B8EK5E5WCX;
+				INFOPLIST_FILE = NinjaGoldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NinjaGoldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinjaGold.app/NinjaGold";
+			};
+			name = Debug;
+		};
+		010A42821EC292BD0054E091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B8EK5E5WCX;
+				INFOPLIST_FILE = NinjaGoldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NinjaGoldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinjaGold.app/NinjaGold";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010A425B1EC292BC0054E091 /* Build configuration list for PBXProject "NinjaGold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010A427B1EC292BD0054E091 /* Debug */,
+				010A427C1EC292BD0054E091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010A427D1EC292BD0054E091 /* Build configuration list for PBXNativeTarget "NinjaGold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010A427E1EC292BD0054E091 /* Debug */,
+				010A427F1EC292BD0054E091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		010A42801EC292BD0054E091 /* Build configuration list for PBXNativeTarget "NinjaGoldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010A42811EC292BD0054E091 /* Debug */,
+				010A42821EC292BD0054E091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 010A42581EC292BC0054E091 /* Project object */;
+}
