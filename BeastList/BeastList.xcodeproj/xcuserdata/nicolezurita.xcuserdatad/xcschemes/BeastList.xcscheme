@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "011A11C31EC4BF5400A866B3"
-               BuildableName = "GreatNumberGame.app"
-               BlueprintName = "GreatNumberGame"
-               ReferencedContainer = "container:GreatNumberGame.xcodeproj">
+               BlueprintIdentifier = "01E4FFFA1ECA08240075CA14"
+               BuildableName = "BeastList.app"
+               BlueprintName = "BeastList"
+               ReferencedContainer = "container:BeastList.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "011A11D71EC4BF5400A866B3"
-               BuildableName = "GreatNumberGameTests.xctest"
-               BlueprintName = "GreatNumberGameTests"
-               ReferencedContainer = "container:GreatNumberGame.xcodeproj">
+               BlueprintIdentifier = "01E4000E1ECA08240075CA14"
+               BuildableName = "BeastListTests.xctest"
+               BlueprintName = "BeastListTests"
+               ReferencedContainer = "container:BeastList.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "011A11C31EC4BF5400A866B3"
-            BuildableName = "GreatNumberGame.app"
-            BlueprintName = "GreatNumberGame"
-            ReferencedContainer = "container:GreatNumberGame.xcodeproj">
+            BlueprintIdentifier = "01E4FFFA1ECA08240075CA14"
+            BuildableName = "BeastList.app"
+            BlueprintName = "BeastList"
+            ReferencedContainer = "container:BeastList.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "011A11C31EC4BF5400A866B3"
-            BuildableName = "GreatNumberGame.app"
-            BlueprintName = "GreatNumberGame"
-            ReferencedContainer = "container:GreatNumberGame.xcodeproj">
+            BlueprintIdentifier = "01E4FFFA1ECA08240075CA14"
+            BuildableName = "BeastList.app"
+            BlueprintName = "BeastList"
+            ReferencedContainer = "container:BeastList.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +84,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "011A11C31EC4BF5400A866B3"
-            BuildableName = "GreatNumberGame.app"
-            BlueprintName = "GreatNumberGame"
-            ReferencedContainer = "container:GreatNumberGame.xcodeproj">
+            BlueprintIdentifier = "01E4FFFA1ECA08240075CA14"
+            BuildableName = "BeastList.app"
+            BlueprintName = "BeastList"
+            ReferencedContainer = "container:BeastList.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
