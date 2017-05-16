@@ -13,6 +13,7 @@
 		011DF11E1ECAE6F200BB8BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011DF11D1ECAE6F200BB8BDB /* Assets.xcassets */; };
 		011DF1211ECAE6F200BB8BDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011DF11F1ECAE6F200BB8BDB /* LaunchScreen.storyboard */; };
 		011DF12C1ECAE6F200BB8BDB /* NorthEastSouthWestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DF12B1ECAE6F200BB8BDB /* NorthEastSouthWestTests.swift */; };
+		011DF1371ECAF5A700BB8BDB /* DirectionOuputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DF1361ECAF5A700BB8BDB /* DirectionOuputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		011DF1271ECAE6F200BB8BDB /* NorthEastSouthWestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorthEastSouthWestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		011DF12B1ECAE6F200BB8BDB /* NorthEastSouthWestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthEastSouthWestTests.swift; sourceTree = "<group>"; };
 		011DF12D1ECAE6F200BB8BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011DF1361ECAF5A700BB8BDB /* DirectionOuputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionOuputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		011DF10A1ECAE6F200BB8BDB = {
 			isa = PBXGroup;
 			children = (
+				011DF1361ECAF5A700BB8BDB /* DirectionOuputViewController.swift */,
 				011DF1151ECAE6F200BB8BDB /* NorthEastSouthWest */,
 				011DF12A1ECAE6F200BB8BDB /* NorthEastSouthWestTests */,
 				011DF1141ECAE6F200BB8BDB /* Products */,
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011DF1371ECAF5A700BB8BDB /* DirectionOuputViewController.swift in Sources */,
 				011DF1191ECAE6F200BB8BDB /* ViewController.swift in Sources */,
 				011DF1171ECAE6F200BB8BDB /* AppDelegate.swift in Sources */,
 			);
