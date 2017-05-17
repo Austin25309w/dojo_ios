@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         //sender is returning Optional(one of the directions)
         let direction = sender as! String //unwrap the optional and make it a string
         let controller = segue.destination as! DirectionOuputViewController //segue.destination is just a UIViewController
-        controller.direction = direction //setting direction that we set up in DirectOutput ViewController...just a string
+        controller.direction = direction //setting direction that we set up in DirectOutput ViewController...just a strings
     }
     
     @IBAction func directionButtonPressed(_ sender: UIButton)
