@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h0a-j4-KH2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Cells View Controller-->
+        <scene sceneID="pHS-iJ-yQY">
+            <objects>
+                <tableViewController id="h0a-j4-KH2" customClass="CustomCellsViewController" customModule="CustomCell" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="121" sectionHeaderHeight="28" sectionFooterHeight="28" id="zNG-Rv-v8g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomCell" rowHeight="121" id="EXG-E2-B6j" customClass="CustomCell" customModule="CustomCell" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="121"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EXG-E2-B6j" id="QBw-Y2-sRz">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="121"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrg-mx-V8T">
+                                            <rect key="frame" x="325" y="50" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zwt-QE-LgP">
+                                            <rect key="frame" x="8" y="45" width="46" height="30"/>
+                                            <state key="normal" title="Button"/>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Zwt-QE-LgP" firstAttribute="centerY" secondItem="xrg-mx-V8T" secondAttribute="centerY" id="7mQ-WZ-Elk"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="xrg-mx-V8T" secondAttribute="trailing" id="Y9f-KN-gTw"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="Zwt-QE-LgP" secondAttribute="leading" id="caJ-wT-MbB"/>
+                                        <constraint firstItem="xrg-mx-V8T" firstAttribute="centerY" secondItem="QBw-Y2-sRz" secondAttribute="centerY" id="fYP-Vt-Ndl"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="leftButton" destination="Zwt-QE-LgP" id="vfU-dT-KSU"/>
+                                    <outlet property="rightLabel" destination="xrg-mx-V8T" id="ne6-lp-Ckr"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="h0a-j4-KH2" id="fZT-ZY-k25"/>
+                            <outlet property="delegate" destination="h0a-j4-KH2" id="doV-Aw-ETc"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LPD-LW-FTR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="164.16791604197903"/>
+        </scene>
+    </scenes>
+</document>
